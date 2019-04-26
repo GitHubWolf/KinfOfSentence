@@ -1,0 +1,22 @@
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/listViewClass"
+        android:layout_weight="1"
+        android:layout_marginRight="10dp"
+        android:choiceMode="singleChoice" />
+
+    <ListView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/listViewChapter"
+        android:layout_weight="1"
+        android:choiceMode="singleChoice" />
+
+</LinearLayout>

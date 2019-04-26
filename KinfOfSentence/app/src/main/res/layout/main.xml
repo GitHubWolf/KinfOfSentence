@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/p0"
+    android:id="@+id/layoutMainScreen">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/layoutContent"
+        android:layout_weight="1"></FrameLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="80sp"
+        android:id="@+id/layoutBottom"
+        android:baselineAligned="true">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/layoutStudy"
+            android:layout_weight="1"
+            android:layout_marginRight="2dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageViewIcon"
+                android:layout_centerHorizontal="true"
+                android:adjustViewBounds="true"
+                android:maxHeight="50dp"
+                android:maxWidth="50dp"
+                android:src="@drawable/study" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Study"
+                android:id="@+id/textViewIconText"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/imageViewIcon" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/layoutClass"
+            android:layout_weight="1"
+            android:layout_marginRight="2dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageViewIcon"
+                android:layout_centerHorizontal="true"
+                android:adjustViewBounds="true"
+                android:maxHeight="50dp"
+                android:maxWidth="50dp"
+                android:src="@drawable/course" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Class"
+                android:id="@+id/textViewIconText"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/imageViewIcon" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/layoutOption"
+            android:layout_weight="1"
+            android:layout_marginRight="2dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageViewIcon"
+                android:layout_centerHorizontal="true"
+                android:adjustViewBounds="true"
+                android:maxHeight="50dp"
+                android:maxWidth="50dp"
+                android:src="@drawable/setup" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Option"
+                android:id="@+id/textViewIconText"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/imageViewIcon" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/layoutAbout"
+            android:layout_weight="1"
+            android:layout_marginRight="2dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageViewIcon"
+                android:layout_centerHorizontal="true"
+                android:adjustViewBounds="true"
+                android:maxHeight="50dp"
+                android:maxWidth="50dp"
+                android:src="@drawable/help" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="About"
+                android:id="@+id/textViewIconText"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/imageViewIcon" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

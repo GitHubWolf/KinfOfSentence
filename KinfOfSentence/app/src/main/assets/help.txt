@@ -1,0 +1,25 @@
+在Study界面下：
+1、左右滑动来更换句子。
+2、上下滑动更换课程。
+3、触摸显示答案。
+
+Well...This software was initially written for myself,but I decided to share it on the network freely so that other people could benefit from it.
+Usages:
+1.On the "Study" screen, slide left to get previous sentence, slide right to get the next sentence， slide up or slide down to change the class and tap to get the answer.
+2.On the "Class" screen, tap to select the class and chapter.
+
+
+更新日志：
+2018-02-08：
+    1、根据网友guoyong@chinesetextile.com的建议：
+        1)增加左右、上下滑动距离，避免误操作。
+        2)把学习界面的字体变小，避免有一些长句子显示不完全。
+    2、更新android SDK的版本。
+
+2015-05-24：
+    1、加入网友jpzhou建议的手势操作：上下滑动来切换课程。
+    2、第一次使用用户指导改成中文。有些使用者不知道如何使用，竟然也不懂得看帮助。
+
+
+Neil
+GreatChinaWolf@126.com

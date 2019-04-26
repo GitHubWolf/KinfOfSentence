@@ -1,0 +1,25 @@
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Show Chinese"
+            android:id="@+id/radioButtonShowChinese"
+            android:textSize="30dp" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Show English"
+            android:id="@+id/radioButtonShowEnglish"
+            android:textSize="30dp" />
+    </RadioGroup>
+</LinearLayout>
